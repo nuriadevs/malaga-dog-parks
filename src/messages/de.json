@@ -1,0 +1,350 @@
+{
+  "app": {
+    "title": "MálagaDogParks"
+  },
+  "metadata": {
+    "title": "MálagaDogParks",
+    "description": "Finde Hundewiesen in Málaga in deiner Nähe. Entdecke Bereiche, in denen dein Hund frei spielen und soziale Kontakte knüpfen kann.",
+    "keywords": [
+      "hundewiesen málaga",
+      "hundegebiete málaga",
+      "haustierbereiche málaga",
+      "offizielle hundewiesen",
+      "dog parks malaga",
+      "freizeitbereiche hunde",
+      "pipican málaga",
+      "stadt málaga haustiere",
+      "pet friendly málaga"
+    ],
+    "authors": [
+      {
+        "name": "Nuria",
+        "url": "https://nuriavazquez.dev"
+      }
+    ],
+    "creator": "Nuria Vázquez",
+    "publisher": "Nuria Vázquez",
+    "formatDetection": {
+      "email": false,
+      "address": false,
+      "telephone": false
+    }
+  },
+
+  "theme": {
+    "toggleTheme": "Thema wechseln",
+    "options": [
+      {
+        "key": "light",
+        "label": "Hell",
+        "value": "light"
+      },
+      {
+        "key": "dark",
+        "label": "Dunkel",
+        "value": "dark"
+      },
+      {
+        "key": "system",
+        "label": "System",
+        "value": "system"
+      }
+    ]
+  },
+  "accessibility": {
+    "fontSize": {
+      "accessibilityOptions": "Barrierefreiheitsoptionen",
+      "textSize": "Textgröße",
+      "decreaseText": "Textgröße verkleinern",
+      "increaseText": "Textgröße vergrößern",
+      "reset": "Zurücksetzen",
+      "currentTextSize": "Textgröße: {size}%"
+    },
+    "main": {
+      "homeContent": "Hauptinhalt - Startseite",
+      "parksContent": "Hauptinhalt - Hundewiesen in Málaga",
+      "aboutContent": "Hauptinhalt - Informationen zum Projekt"
+    },
+    "footer": {
+      "footerLabel": "Fußzeile",
+      "mainLinksNav": "Hauptlinks",
+      "socialNav": "Soziale Netzwerke",
+      "loveLabel": "Liebe"
+    },
+    "header": {
+      "headerLabel": "Hauptseitenkopf",
+      "logoLabel": "MálagaDogParks - Zur Startseite",
+      "navigationToolbar": "Navigations- und Einstellungskontrollen"
+    },
+    "settingsPanel": {
+      "openSettings": "Barrierefreiheits- und Einstellungen öffnen",
+      "closeSettings": "Einstellungen schließen",
+      "settingsTitle": "Einstellungen",
+      "settingsDescription": "Passe dein Surferlebnis an",
+      "textSizeFieldset": "Textgröße",
+      "themeFieldset": "App-Thema",
+      "textLanguage": "Sprache wählen",
+      "settingsNote": "Diese Einstellungen werden im Browser gespeichert",
+      "overlayLabel": "Dialog-Hintergrund der Einstellungen"
+    },
+    "cookies": {
+      "policyCookiesLink": "Vollständige Cookie-Richtlinie lesen",
+      "policyPrivacyLink": "Datenschutzrichtlinie lesen",
+      "rejectOptionalButton": "Optionale Cookies ablehnen, nur notwendige behalten",
+      "configureButton": "Cookie-Einstellungen anpassen",
+      "acceptAllButton": "Alle Cookies akzeptieren, inkl. Analyse und Marketing",
+      "backButton": "Zurück zum Hauptpanel ohne Speichern",
+      "savePreferencesButton": "Cookie-Einstellungen speichern"
+    },
+    "notFound": {
+      "main": "Hauptinhalt",
+      "errorState": "Seite nicht gefunden",
+      "warningIcon": "Warnsymbol",
+      "backToHome": "Zur Startseite zurück",
+      "searchSite": "Auf der Seite suchen",
+      "helpSection": "Hilfebereich",
+      "navigationHelp": "Navigation Hilfe",
+      "suggestions": "Vorschläge"
+    },
+    "loading": {
+      "main": "Hauptinhalt",
+      "loadingStatus": "Inhalt wird geladen",
+      "loadingProgress": "Ladefortschritt",
+      "loadingText": "Ladeinformationen",
+      "additionalInfo": "Zusätzliche Ladeinformationen"
+    },
+    "error": {
+      "main": "Hauptinhalt",
+      "errorState": "Fehlerzustand",
+      "warningIcon": "Warnsymbol",
+      "technicalDetails": "Technische Fehlerdetails",
+      "errorDetails": "Fehlerdetails",
+      "availableActions": "Verfügbare Aktionen",
+      "retryAction": "Erneut versuchen",
+      "backToHome": "Zur Startseite zurück",
+      "helpSection": "Hilfebereich",
+      "suggestions": "Vorschläge"
+    }
+  },
+
+  "common": {
+    "close": "Schließen",
+    "open": "Öffnen",
+    "menu": "Menü",
+    "settings": "Einstellungen"
+  },
+  "navigation": {
+    "mainNav": "Hauptnavigation",
+    "currentPage": "(aktuelle Seite)",
+    "home": "Start",
+    "parks": "Parks",
+    "about": "Über",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "menuOpened": "Menü geöffnet",
+    "menuClosed": "Menü geschlossen",
+    "mobileNav": "Mobile Navigation",
+    "links": [
+      {
+        "key": "home",
+        "href": "/",
+        "labelKey": "home"
+      },
+      {
+        "key": "parks",
+        "href": "/parks",
+        "labelKey": "parks"
+      },
+      {
+        "key": "about",
+        "href": "/about",
+        "labelKey": "about"
+      }
+    ]
+  },
+
+  "ui": {
+    "theme": {
+      "toggle": "Thema wechseln",
+      "light": "Hell",
+      "dark": "Dunkel",
+      "system": "System"
+    },
+    "accessibility": {
+      "title": "Barrierefreiheitsoptionen",
+      "fontSize": "Textgröße",
+      "reset": "Zurücksetzen",
+      "currentSize": "Textgröße: {size}%"
+    },
+    "language": {
+      "title": "Sprache",
+      "current": "Aktuelle Sprache: {language}"
+    },
+    "settings": {
+      "title": "Einstellungen",
+      "panel": "Einstellungsfeld"
+    }
+  },
+
+  "homepage": {
+    "title": "MálagaDogParks",
+    "subtitle": "Entdecke die offiziellen Hundebereiche von Málaga und verbinde dich mit deiner Hunde-Community"
+  },
+
+  "mission": {
+    "heading": "Unsere Mission",
+    "cards": [
+      {
+        "title": "Hundewohlbefinden",
+        "description": "Förderung von Bewegung, Sozialisation und Glück unserer vierbeinigen Begleiter"
+      },
+      {
+        "title": "Soziale Verbindung",
+        "description": "Sozialisation unter Nachbarn durch Hundespaziergänge fördern und Gemeinschaftsbande stärken"
+      },
+      {
+        "title": "Lebensqualität",
+        "description": "Dafür sorgen, dass Málaga eine freundlichere und sicherere Stadt für Haustiere wird"
+      }
+    ]
+  },
+
+  "parks": {
+    "title": "Entdecke die besten Bereiche für dein Haustier in Málaga",
+    "descriptionRich": "Finde <highlight>Hundewiesen</highlight>, Freizeitbereiche und <highlight>pet-friendly</highlight> Orte in deiner Nähe"
+  },
+
+  "about": {
+    "title": "Über das Projekt",
+    "paragraphs": [
+      "MálagaDogParks entstand als persönliches Projekt, das meine Leidenschaft für Webentwicklung und meine Liebe zu Hunden verbindet. Mit offiziellen Daten der Stadt Málaga habe ich eine moderne Plattform geschaffen, die sichere und offizielle Hundebereiche in unserer Stadt leicht auffindbar macht.",
+      "Dieses Projekt ist Teil meines Entwickler-Portfolios und demonstriert den Einsatz moderner Technologien wie Next.js, Tailwind und der Python-Bibliothek Folium zur Erstellung präziser und funktionaler interaktiver Karten.",
+      "Ich glaube fest daran, dass das Spazierengehen mit unseren Hunden eine einzigartige Gelegenheit ist, soziale Kontakte zu knüpfen, Nachbarn kennenzulernen und die Gemeinschaft in Málaga zu stärken."
+    ]
+  },
+
+  "stack": {
+    "heading": "Technologiestack",
+    "cards": [
+      {
+        "title": "Next.js"
+      },
+      {
+        "title": "Tailwind"
+      },
+      {
+        "title": "Python"
+      },
+      {
+        "title": "Folium"
+      }
+    ]
+  },
+
+  "seo": {
+    "defaultTitle": "MálagaDogParks - Offizielle Hundewiesen in Málaga",
+    "titleSeparator": " | ",
+    "defaultDescription": "Finde die besten offiziellen Hundebereiche in Málaga. Dein kompletter Führer für Hundewiesen mit aktuellen Informationen.",
+    "ogType": "website",
+    "ogSiteName": "MálagaDogParks"
+  },
+
+  "footer": {
+    "contact": {
+      "title": "Kontakt",
+      "email": "info@loremipsum.com",
+      "phone": "000 00 00 00",
+      "address": "Málaga, Spanien"
+    },
+    "navigation": {
+      "title": "Links",
+      "links": [
+        { "label": "Start", "href": "/" },
+        { "label": "Parks", "href": "/parks" },
+        { "label": "Über", "href": "/about" }
+      ]
+    },
+    "social": {
+      "title": "Folge mir"
+    },
+    "copyright": {
+      "developedWith": "Entwickelt mit",
+      "by": "von",
+      "author": "Nuria Vázquez"
+    }
+  },
+
+  "cookie": {
+    "title": "Cookie-Einstellungen",
+    "description": "Wir verwenden eigene und Drittanbieter-Cookies, um unsere Dienste zu analysieren und dir werbebezogene Inhalte basierend auf deinen Vorlieben anzuzeigen. Du kannst die Cookies konfigurieren oder ablehnen, indem du die entsprechenden Schaltflächen benutzt.",
+    "policyCookies": "Vollständige Cookie-Richtlinie",
+    "policyPrivacy": "Datenschutzrichtlinie",
+    "acceptAll": "Alle akzeptieren",
+    "rejectOptional": "Nur notwendige",
+    "configure": "Konfigurieren",
+    "configTitle": "Cookie-Präferenzen",
+    "configDescription": "Passe an, welche Cookies du akzeptieren möchtest. Notwendige Cookies können nicht deaktiviert werden.",
+    "types": {
+      "necessaryLabel": "Notwendige Cookies",
+      "necessaryRequired": "(Pflicht)",
+      "necessaryDesc": "Unverzichtbar für die Grundfunktionen der Webseite.",
+      "functionalLabel": "Funktionale Cookies",
+      "functionalDesc": "Verbessern die Erfahrung, indem sie deine Einstellungen speichern (Sprache, Region usw.).",
+      "analyticsLabel": "Analyse-Cookies",
+      "analyticsDesc": "Helfen uns zu verstehen, wie du die Seite nutzt, um sie zu verbessern (Google Analytics).",
+      "marketingLabel": "Marketing-Cookies",
+      "marketingDesc": "Ermöglichen personalisierte Werbung und messen deren Effektivität."
+    },
+    "back": "Zurück",
+    "savePreferences": "Präferenzen speichern"
+  },
+
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Es scheint, als gäbe es diese Hundewiese nicht auf unserer Karte. Aber keine Sorge! Wir haben viele andere tolle Orte für dich.",
+    "backHome": "Zur Startseite",
+    "searchParks": "Parks suchen",
+    "suggestions": {
+      "title": "Was kannst du tun?",
+      "findParks": "Hundewiesen erkunden",
+      "checkMap": "Interaktive Karte ansehen",
+      "contactUs": "Kontaktiere uns",
+      "goHome": "Zurück zur Hauptseite"
+    }
+  },
+  "error": {
+    "title": "Ups! Etwas ist schiefgelaufen",
+    "description": "Beim Laden der Hundewiesen ist ein unerwarteter Fehler aufgetreten. Unsere Entwickler wurden informiert.",
+    "retry": "Erneut versuchen",
+    "backHome": "Zur Startseite",
+    "technicalDetails": "Technische Details",
+    "help": {
+      "title": "Brauchst du Hilfe?",
+      "description": "Wenn das Problem weiterhin besteht, kontaktiere bitte unser Support-Team.",
+      "temporary": "Vorübergehendes Problem",
+      "refresh": "Versuche neu zu laden"
+    }
+  },
+  "loading": {
+    "title": "Lädt...",
+    "description": "Wir bereiten die Informationen zu den Hundewiesen für dich vor",
+    "loadingParks": "Lade Hundewiesen-Standorte"
+  },
+  "maps": {
+    "title": "Hundepark-Karte von Málaga",
+    "ariatitle": "Interaktive Karte, die den Standort aller offiziellen Hundeparks in Málaga zeigt",
+    "loading": "Karte wird geladen...",
+    "loadError": "Fehler beim Laden der Karte",
+    "retry": "Erneut versuchen",
+    "title_layer": "Hundeparks in Málaga",
+    "address": "Adresse",
+    "wheelchair_access": "Barrierefreier Zugang",
+    "area": "Fläche",
+    "water_fountain": "Wasserbrunnen",
+    "view": "Ansicht",
+    "open_street_view": "In Street View öffnen",
+    "name_not_available": "Name nicht verfügbar",
+    "address_not_available": "Adresse nicht verfügbar",
+    "info_not_available": "Information nicht verfügbar"
+  }
+}

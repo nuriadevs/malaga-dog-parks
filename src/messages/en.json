@@ -1,0 +1,324 @@
+{
+  "app": {
+    "title": "MálagaDogParks"
+  },
+  "metadata": {
+    "title": "MálagaDogParks",
+    "description": "Find dog parks in Málaga near you. Discover areas for your dog to play and socialize freely.",
+    "keywords": [
+      "dog parks malaga",
+      "dog areas malaga",
+      "pet spaces malaga",
+      "official dog parks",
+      "dog recreation zones",
+      "pipican malaga",
+      "malaga pet friendly",
+      "dog friendly malaga",
+      "malaga city pets"
+    ],
+    "authors": [
+      {
+        "name": "Nuria",
+        "url": "https://nuriavazquez.dev"
+      }
+    ],
+    "creator": "Nuria Vázquez",
+    "publisher": "Nuria Vázquez",
+    "formatDetection": {
+      "email": false,
+      "address": false,
+      "telephone": false
+    }
+  },
+
+  "theme": {
+    "toggleTheme": "Change theme",
+    "options": [
+      {
+        "key": "light",
+        "label": "Light",
+        "value": "light"
+      },
+      {
+        "key": "dark",
+        "label": "Dark",
+        "value": "dark"
+      },
+      {
+        "key": "system",
+        "label": "System",
+        "value": "system"
+      }
+    ]
+  },
+  "accessibility": {
+    "fontSize": {
+      "accessibilityOptions": "Accessibility options",
+      "textSize": "Text size",
+      "decreaseText": "Decrease text size",
+      "increaseText": "Increase text size",
+      "reset": "Reset",
+      "currentTextSize": "Text size: {size}%"
+    },
+    "main": {
+      "homeContent": "Main content - Home",
+      "parksContent": "Main content - Dog parks in Málaga",
+      "aboutContent": "Main content - Project information"
+    },
+    "footer": {
+      "footerLabel": "Footer",
+      "mainLinksNav": "Main links",
+      "socialNav": "Social networks",
+      "loveLabel": "love"
+    },
+    "header": {
+      "headerLabel": "Main site header",
+      "logoLabel": "MálagaDogParks - Go to homepage",
+      "navigationToolbar": "Navigation and settings controls"
+    },
+    "settingsPanel": {
+      "openSettings": "Open accessibility and preferences settings",
+      "closeSettings": "Close settings",
+      "settingsTitle": "Settings",
+      "settingsDescription": "Customize your browsing experience",
+      "textSizeFieldset": "Text size",
+      "textLanguage": "Select language",
+      "themeFieldset": "Application theme",
+      "settingsNote": "These settings are saved in your browser",
+      "overlayLabel": "Settings dialog background"
+    },
+    "cookies": {
+      "policyCookiesLink": "Read full cookie policy",
+      "policyPrivacyLink": "Read privacy policy",
+      "rejectOptionalButton": "Reject optional cookies and keep only necessary ones",
+      "configureButton": "Configure custom cookie preferences",
+      "acceptAllButton": "Accept all cookies including analytics and marketing",
+      "backButton": "Return to main panel without saving changes",
+      "savePreferencesButton": "Save selected cookie preferences"
+    }
+  },
+
+  "common": {
+    "close": "Close",
+    "open": "Open",
+    "menu": "Menu",
+    "settings": "Settings"
+  },
+
+  "navigation": {
+    "mainNav": "Main navigation",
+    "currentPage": "(current page)",
+    "home": "Home",
+    "parks": "Parks",
+    "about": "About",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menuOpened": "Menu opened",
+    "menuClosed": "Menu closed",
+    "mobileNav": "Mobile navigation",
+    "links": [
+      {
+        "key": "home",
+        "href": "/",
+        "labelKey": "home"
+      },
+      {
+        "key": "parks",
+        "href": "/parks",
+        "labelKey": "parks"
+      },
+      {
+        "key": "about",
+        "href": "/about",
+        "labelKey": "about"
+      }
+    ]
+  },
+
+  "ui": {
+    "theme": {
+      "toggle": "Change theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "accessibility": {
+      "title": "Accessibility options",
+      "fontSize": "Text size",
+      "reset": "Reset",
+      "currentSize": "Text size: {size}%"
+    },
+    "language": {
+      "title": "Language",
+      "current": "Current language: {language}"
+    },
+    "settings": {
+      "title": "Settings",
+      "panel": "Settings panel"
+    }
+  },
+
+  "homepage": {
+    "title": "MálagaDogParks",
+    "subtitle": "Discover Málaga’s official dog parks and connect with your dog-loving community"
+  },
+
+  "mission": {
+    "heading": "Our Mission",
+    "cards": [
+      {
+        "title": "Canine Wellbeing",
+        "description": "Promote exercise, socialization, and happiness for our four-legged companions"
+      },
+      {
+        "title": "Social Connection",
+        "description": "Encourage neighborly socialization through dog walking and create community bonds"
+      },
+      {
+        "title": "Quality of Life",
+        "description": "Contributing to make Málaga a more welcoming and safe city for pets"
+      }
+    ]
+  },
+
+  "parks": {
+    "title": "Discover the best spaces for your pet in Málaga",
+    "descriptionRich": "Find <highlight>dog parks</highlight>, recreation areas, and <highlight>pet-friendly</highlight> spaces near you"
+  },
+
+  "about": {
+    "title": "About the project",
+    "paragraphs": [
+      "MálagaDogParks was born as a personal project that combines my passion for web development and my love for dogs. Using official data from the Málaga City Council, I have created a modern platform that makes it easy to find safe and official dog-friendly spaces in our city.",
+      "This project is part of my developer portfolio, showcasing the use of modern technologies such as Next.js, Tailwind, and Python’s Folium library to create precise and functional interactive maps.",
+      "Beyond technology, I firmly believe that walking with our dogs is a unique opportunity to socialize, meet neighbors, and strengthen community ties in Málaga."
+    ]
+  },
+
+  "stack": {
+    "heading": "Technology Stack",
+    "cards": [
+      {
+        "title": "Next.js"
+      },
+      {
+        "title": "Tailwind"
+      },
+      {
+        "title": "Python"
+      },
+      {
+        "title": "Folium"
+      }
+    ]
+  },
+
+  "seo": {
+    "defaultTitle": "MálagaDogParks - Official Dog Parks in Málaga",
+    "titleSeparator": " | ",
+    "defaultDescription": "Find the best official dog parks in Málaga. Your complete guide to dog-friendly spaces with up-to-date information.",
+    "ogType": "website",
+    "ogSiteName": "MálagaDogParks"
+  },
+
+  "footer": {
+    "contact": {
+      "title": "Contact",
+      "email": "info@loremipsum.com",
+      "phone": "000 00 00 00",
+      "address": "Málaga, Spain"
+    },
+    "navigation": {
+      "title": "Links",
+      "links": [
+        { "label": "Home", "href": "/" },
+        { "label": "Parks", "href": "/parks" },
+        { "label": "About", "href": "/about" }
+      ]
+    },
+    "social": {
+      "title": "Follow me"
+    },
+    "copyright": {
+      "developedWith": "Developed with",
+      "by": "by",
+      "author": "Nuria Vázquez"
+    }
+  },
+  "cookie": {
+    "title": "Cookie Settings",
+    "description": "We use first and third-party cookies to analyze our services and show you ads related to your preferences. You can configure or reject cookies by clicking the corresponding buttons.",
+    "policyCookies": "Full cookie policy",
+    "policyPrivacy": "Privacy policy",
+    "acceptAll": "Accept all",
+    "rejectOptional": "Necessary only",
+    "configure": "Configure",
+    "configTitle": "Cookie preferences",
+    "configDescription": "Customize which cookies you want to accept. Necessary cookies cannot be disabled.",
+    "types": {
+      "necessaryLabel": "Necessary cookies",
+      "necessaryRequired": "(Required)",
+      "necessaryDesc": "Essential for the basic functioning of the website.",
+
+      "functionalLabel": "Functional cookies",
+      "functionalDesc": "Improve experience by remembering your preferences (language, region, etc.).",
+
+      "analyticsLabel": "Analytics cookies",
+      "analyticsDesc": "Help us understand how you use the site to improve it (Google Analytics).",
+
+      "marketingLabel": "Marketing cookies",
+      "marketingDesc": "Allow personalized ads and measure their effectiveness."
+    },
+
+    "back": "Back",
+    "savePreferences": "Save preferences"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "It looks like this dog park doesn't exist on our map. But don't worry! We have many other great places waiting for you.",
+    "backHome": "Go home",
+    "searchParks": "Search parks",
+    "suggestions": {
+      "title": "What can you do?",
+      "findParks": "Explore dog parks",
+      "checkMap": "View interactive map",
+      "contactUs": "Contact us",
+      "goHome": "Return to homepage"
+    }
+  },
+  "error": {
+    "title": "Oops! Something went wrong",
+    "description": "An unexpected error occurred while loading the dog park information. Our developers have been notified.",
+    "retry": "Try again",
+    "backHome": "Go home",
+    "technicalDetails": "Technical details",
+    "help": {
+      "title": "Need help?",
+      "description": "If the problem persists, please contact our support team.",
+      "temporary": "Temporary issue",
+      "refresh": "Try refreshing"
+    }
+  },
+  "loading": {
+    "title": "Loading...",
+    "description": "We're preparing the dog park information for you",
+    "loadingParks": "Loading park locations"
+  },
+  "maps": {
+    "title": "Dog Parks Map of Málaga",
+    "ariatitle": "Interactive map showing the location of all official dog parks in Málaga",
+    "loading": "Loading map...",
+    "loadError": "Error loading map", 
+    "retry": "Retry",
+    "title_layer": "Dog Parks in Málaga",
+    "address": "Address",
+    "wheelchair_access": "Wheelchair Access",
+    "area": "Area",
+    "water_fountain": "Water Fountain",
+    "view": "View",
+    "open_street_view": "Open in Street View",
+    "name_not_available": "Name not available",
+    "address_not_available": "Address not available",
+    "info_not_available": "Information not available"
+  }
+}

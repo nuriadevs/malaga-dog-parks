@@ -1,0 +1,338 @@
+{
+  "app": {
+    "title": "MálagaDogParks"
+  },
+  "metadata": {
+    "title": "MálagaDogParks",
+    "description": "Trouvez des parcs pour chiens à Málaga près de chez vous. Découvrez des espaces où votre chien peut jouer et socialiser librement.",
+    "keywords": [
+      "parcs pour chiens Málaga",
+      "zones pour chiens Málaga",
+      "espaces pour animaux Málaga",
+      "parcs officiels pour chiens",
+      "dog parks malaga",
+      "zones de loisirs pour chiens",
+      "pipican Málaga",
+      "mairie Málaga animaux",
+      "pet friendly Málaga"
+    ],
+    "authors": [
+      {
+        "name": "Nuria",
+        "url": "https://nuriavazquez.dev"
+      }
+    ],
+    "creator": "Nuria Vázquez",
+    "publisher": "Nuria Vázquez",
+    "formatDetection": {
+      "email": false,
+      "address": false,
+      "telephone": false
+    }
+  },
+  "theme": {
+    "toggleTheme": "Changer de thème",
+    "options": [
+      {
+        "key": "light",
+        "label": "Clair",
+        "value": "light"
+      },
+      {
+        "key": "dark",
+        "label": "Sombre",
+        "value": "dark"
+      },
+      {
+        "key": "system",
+        "label": "Système",
+        "value": "system"
+      }
+    ]
+  },
+  "accessibility": {
+    "fontSize": {
+      "accessibilityOptions": "Options d'accessibilité",
+      "textSize": "Taille du texte",
+      "decreaseText": "Réduire la taille du texte",
+      "increaseText": "Augmenter la taille du texte",
+      "reset": "Réinitialiser",
+      "currentTextSize": "Taille du texte : {size}%"
+    },
+    "main": {
+      "homeContent": "Contenu principal - Accueil",
+      "parksContent": "Contenu principal - Parcs pour chiens à Málaga",
+      "aboutContent": "Contenu principal - Informations sur le projet"
+    },
+    "footer": {
+      "footerLabel": "Pied de page",
+      "mainLinksNav": "Liens principaux",
+      "socialNav": "Réseaux sociaux",
+      "loveLabel": "amour"
+    },
+    "header": {
+      "headerLabel": "En-tête principal du site",
+      "logoLabel": "MálagaDogParks - Aller à la page d'accueil",
+      "navigationToolbar": "Contrôles de navigation et paramètres"
+    },
+    "settingsPanel": {
+      "openSettings": "Ouvrir les paramètres d'accessibilité et préférences",
+      "closeSettings": "Fermer les paramètres",
+      "settingsTitle": "Paramètres",
+      "settingsDescription": "Personnalisez votre expérience de navigation",
+      "textSizeFieldset": "Taille du texte",
+      "themeFieldset": "Thème de l'application",
+      "textLanguage": "Sélectionner la langue",
+      "settingsNote": "Ces réglages sont sauvegardés dans votre navigateur",
+      "overlayLabel": "Fond de la boîte de dialogue des paramètres"
+    },
+    "cookies": {
+      "policyCookiesLink": "Lire la politique complète des cookies",
+      "policyPrivacyLink": "Lire la politique de confidentialité",
+      "rejectOptionalButton": "Refuser les cookies optionnels et garder uniquement les nécessaires",
+      "configureButton": "Configurer les préférences de cookies personnalisées",
+      "acceptAllButton": "Accepter tous les cookies y compris analyse et marketing",
+      "backButton": "Retour au panneau principal sans enregistrer",
+      "savePreferencesButton": "Enregistrer les préférences de cookies sélectionnées"
+    },
+    "notFound": {
+      "main": "Contenu principal",
+      "errorState": "État page non trouvée",
+      "warningIcon": "Icône d'avertissement",
+      "backToHome": "Retour à l'accueil",
+      "searchSite": "Rechercher sur le site",
+      "helpSection": "Section d'aide",
+      "navigationHelp": "Aide à la navigation",
+      "suggestions": "Suggestions"
+    },
+    "loading": {
+      "main": "Contenu principal",
+      "loadingStatus": "Chargement du contenu",
+      "loadingProgress": "Progression du chargement",
+      "loadingText": "Informations de chargement",
+      "additionalInfo": "Informations supplémentaires de chargement"
+    },
+    "error": {
+      "main": "Contenu principal",
+      "errorState": "État d'erreur",
+      "warningIcon": "Icône d'avertissement",
+      "technicalDetails": "Détails techniques de l'erreur",
+      "errorDetails": "Détails de l'erreur",
+      "availableActions": "Actions disponibles",
+      "retryAction": "Réessayer",
+      "backToHome": "Retour à l'accueil",
+      "helpSection": "Section d'aide",
+      "suggestions": "Suggestions"
+    }
+  },
+  "common": {
+    "close": "Fermer",
+    "open": "Ouvrir",
+    "menu": "Menu",
+    "settings": "Paramètres"
+  },
+  "navigation": {
+    "mainNav": "Navigation principale",
+    "currentPage": "(page actuelle)",
+    "home": "Accueil",
+    "parks": "Parcs",
+    "about": "À propos",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "menuOpened": "Menu ouvert",
+    "menuClosed": "Menu fermé",
+    "mobileNav": "Navigation mobile",
+    "links": [
+      {
+        "key": "home",
+        "href": "/",
+        "labelKey": "home"
+      },
+      {
+        "key": "parks",
+        "href": "/parks",
+        "labelKey": "parks"
+      },
+      {
+        "key": "about",
+        "href": "/about",
+        "labelKey": "about"
+      }
+    ]
+  },
+  "ui": {
+    "theme": {
+      "toggle": "Changer le thème",
+      "light": "Clair",
+      "dark": "Sombre",
+      "system": "Système"
+    },
+    "accessibility": {
+      "title": "Options d'accessibilité",
+      "fontSize": "Taille du texte",
+      "reset": "Réinitialiser",
+      "currentSize": "Taille du texte : {size}%"
+    },
+    "language": {
+      "title": "Langue",
+      "current": "Langue actuelle : {language}"
+    },
+    "settings": {
+      "title": "Paramètres",
+      "panel": "Panneau des paramètres"
+    }
+  },
+  "homepage": {
+    "title": "MálagaDogParks",
+    "subtitle": "Découvrez les parcs officiels pour chiens à Málaga et connectez-vous avec votre communauté canine"
+  },
+  "mission": {
+    "heading": "Notre mission",
+    "cards": [
+      {
+        "title": "Bien-être des chiens",
+        "description": "Promouvoir l'exercice, la socialisation et le bonheur de nos amis à quatre pattes"
+      },
+      {
+        "title": "Connexion sociale",
+        "description": "Encourager la socialisation de quartier via les promenades et la communauté canine"
+      },
+      {
+        "title": "Qualité de vie",
+        "description": "Contribuer à rendre Málaga plus accueillante et sûre pour les animaux"
+      }
+    ]
+  },
+  "parks": {
+    "title": "Découvrez les meilleurs endroits pour votre animal à Málaga",
+    "descriptionRich": "Trouvez des <highlight>parcs pour chiens</highlight>, espaces de loisirs et lieux <highlight>pet friendly</highlight> près de chez vous"
+  },
+  "about": {
+    "title": "À propos du projet",
+    "paragraphs": [
+      "MálagaDogParks est un projet personnel qui combine ma passion pour le développement web et mon amour des chiens. Avec des données officielles de la ville de Málaga, j'ai créé une plateforme moderne qui rend accessibles facilement les espaces officiels et sécurisés pour les chiens dans notre ville.",
+      "Ce projet fait partie de mon portfolio développeur et démontre l'utilisation de technologies modernes telles que Next.js, Tailwind et la bibliothèque Python Folium pour créer des cartes précises et interactives.",
+      "Je suis convaincue que la promenade avec nos chiens est une occasion unique de rencontrer des voisins, de socialiser et de renforcer le lien communautaire à Málaga."
+    ]
+  },
+  "stack": {
+    "heading": "Technologies utilisées",
+    "cards": [
+      {
+        "title": "Next.js"
+      },
+      {
+        "title": "Tailwind"
+      },
+      {
+        "title": "Python"
+      },
+      {
+        "title": "Folium"
+      }
+    ]
+  },
+  "seo": {
+    "defaultTitle": "MálagaDogParks - Parcs officiels pour chiens de Málaga",
+    "titleSeparator": " | ",
+    "defaultDescription": "Trouvez les meilleurs parcs officiels pour chiens à Málaga. Votre guide complet des parcs canins avec des informations à jour.",
+    "ogType": "website",
+    "ogSiteName": "MálagaDogParks"
+  },
+  "footer": {
+    "contact": {
+      "title": "Contact",
+      "email": "info@loremipsum.com",
+      "phone": "000 00 00 00",
+      "address": "Málaga, Espagne"
+    },
+    "navigation": {
+      "title": "Liens",
+      "links": [
+        { "label": "Accueil", "href": "/" },
+        { "label": "Parcs", "href": "/parks" },
+        { "label": "À propos", "href": "/about" }
+      ]
+    },
+    "social": {
+      "title": "Suivez-moi"
+    },
+    "copyright": {
+      "developedWith": "Développé avec",
+      "by": "par",
+      "author": "Nuria Vázquez"
+    }
+  },
+  "cookie": {
+    "title": "Paramètres des cookies",
+    "description": "Nous utilisons des cookies propres et de tiers pour analyser nos services et vous montrer des publicités adaptées à vos préférences. Vous pouvez configurer ou refuser les cookies en cliquant sur les boutons correspondants.",
+    "policyCookies": "Politique complète des cookies",
+    "policyPrivacy": "Politique de confidentialité",
+    "acceptAll": "Tout accepter",
+    "rejectOptional": "Cookies nécessaires uniquement",
+    "configure": "Configurer",
+    "configTitle": "Préférences de cookies",
+    "configDescription": "Choisissez les cookies que vous souhaitez accepter. Les cookies nécessaires ne peuvent pas être désactivés.",
+    "types": {
+      "necessaryLabel": "Cookies nécessaires",
+      "necessaryRequired": "(Obligatoire)",
+      "necessaryDesc": "Essentiels au fonctionnement de base du site web.",
+      "functionalLabel": "Cookies fonctionnels",
+      "functionalDesc": "Améliorent l'expérience en mémorisant vos préférences (langue, région, etc.).",
+      "analyticsLabel": "Cookies d'analyse",
+      "analyticsDesc": "Nous aident à comprendre comment vous utilisez le site pour l'améliorer (Google Analytics).",
+      "marketingLabel": "Cookies marketing",
+      "marketingDesc": "Permettent la publicité personnalisée et mesurent son efficacité."
+    },
+    "back": "Retour",
+    "savePreferences": "Enregistrer les préférences"
+  },
+  "notFound": {
+    "title": "Page non trouvée",
+    "description": "Il semble que cet endroit de parc pour chiens n'existe pas sur notre carte. Mais ne vous inquiétez pas ! Nous avons plein d'autres endroits sympas pour vous.",
+    "backHome": "Retour à l'accueil",
+    "searchParks": "Rechercher des parcs",
+    "suggestions": {
+      "title": "Que pouvez-vous faire ?",
+      "findParks": "Explorer les parcs pour chiens",
+      "checkMap": "Voir la carte interactive",
+      "contactUs": "Nous contacter",
+      "goHome": "Retour à la page principale"
+    }
+  },
+  "error": {
+    "title": "Oups ! Quelque chose a mal tourné",
+    "description": "Une erreur inattendue est survenue lors du chargement des données des parcs pour chiens. Nos développeurs ont été informés.",
+    "retry": "Réessayer",
+    "backHome": "Retour à l'accueil",
+    "technicalDetails": "Détails techniques",
+    "help": {
+      "title": "Besoin d'aide ?",
+      "description": "Si le problème persiste, veuillez contacter notre équipe de support.",
+      "temporary": "Problème temporaire",
+      "refresh": "Essayez de recharger la page"
+    }
+  },
+  "loading": {
+    "title": "Chargement...",
+    "description": "Nous préparons les informations des parcs pour chiens pour vous",
+    "loadingParks": "Chargement des emplacements des parcs"
+  },
+  "maps": {
+    "title": "Carte des parcs canins de Málaga",
+    "ariatitle": "Carte interactive montrant l'emplacement de tous les parcs canins officiels à Málaga",
+    "loading": "Chargement de la carte...",
+    "loadError": "Erreur lors du chargement de la carte",
+    "retry": "Réessayer",
+    "title_layer": "Parcs Canins de Málaga",
+    "address": "Adresse",
+    "wheelchair_access": "Accès PMR",
+    "area": "Superficie",
+    "water_fountain": "Fontaine à eau",
+    "view": "Vue",
+    "open_street_view": "Ouvrir dans Street View",
+    "name_not_available": "Nom non disponible",
+    "address_not_available": "Adresse non disponible",
+    "info_not_available": "Informations non disponibles"
+  }
+}
