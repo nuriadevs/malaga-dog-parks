@@ -54,7 +54,12 @@ Visita la web [malagadogparks.vercel.app](https://malaga-dog-parks.vercel.app/) 
 
 ## 🎬 Video Demo
 
-<a href="https://youtu.be/wiZI81njLYU?si=1QQuk1IeEfLAjAma" target="_blank"> <img src="public/images/youtube.png" alt="Video demostración de MálagaDogParks" width="400"> </a>
+<a href="https://youtu.be/sru8bcC0Mgs" 
+   target="_blank" 
+   rel="noopener noreferrer" 
+   aria-label="Ver demostración de la aplicación Málaga Dog Parks en YouTube (se abre en nueva pestaña)">
+   Ver video demo en Youtube
+</a>
 
 ## 📱 Capturas de pantalla
 
@@ -62,15 +67,15 @@ Visita la web [malagadogparks.vercel.app](https://malaga-dog-parks.vercel.app/) 
 
 ### 💻 Escritorio
 
-<img src="images/desktop-view.png" alt="Desktop View" width="500" />
+<img src="./public/images/desktop-view.png" alt="Desktop View" width="500" />
 
 ### 📱 Tablet
 
-<img src="images/tablet-view.png" alt="Tablet View" width="350" />
+<img src="./public/images/tablet-view.png" alt="Tablet View" width="350" />
 
 ### 📱 Móvil
 
-<img src="images/mobile-view.png" alt="Mobile View" width="250" /> </details>
+<img src="./public/images/mobile-view.png" alt="Mobile View" width="250" /> </details>
 
 ## 📦 Instalación y uso
 
