@@ -10,7 +10,7 @@ export function MapIframe() {
   const { iframeRef } = useMapLoader();
 
   return (
-    <div className="w-full flex-1 animate-in fade-in duration-1000">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl animate-in fade-in duration-1000">
       <div className="bg-card/30 backdrop-blur-sm border border-border/30 rounded-2xl p-4 sm:p-6 lg:p-8 shadow-xl">
         <div className="bg-card/30 backdrop-blur-sm border border-border/30 rounded-2xl overflow-hidden shadow-xl h-[70vh]">
           <iframe

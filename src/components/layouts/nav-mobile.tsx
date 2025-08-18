@@ -90,23 +90,10 @@ export function MobileNav() {
           <div className="flex flex-col h-full bg-background border-l border-border">
             {/* Header */}
             <DrawerHeader>
-              <div className="flex items-center justify-between p-4 border-b border-border">
-                <DrawerTitle>
-                  <div className="flex items-center space-x-2">
-                    <FaPaw
-                      className="text-cyan-600"
-                      size={20}
-                      aria-hidden="true"
-                    />
-                    <h2
-                      id="mobile-nav-title"
-                      className="text-lg font-semibold text-foreground"
-                    >
-                      {tNameApp("title")}
-                    </h2>
-                  </div>
-                </DrawerTitle>
-
+              <DrawerTitle className="sr-only">
+                {tNav("mainNav")}
+              </DrawerTitle>
+              <div className="flex justify-end p-4">
                 <DrawerClose asChild>
                   <button
                     className="p-2 hover:bg-muted/50 rounded-lg transition-colors duration-200
@@ -125,7 +112,7 @@ export function MobileNav() {
 
             {/* Navigation */}
             <nav
-              className="flex-1 px-4 py-6"
+              className="flex-1 px-4 py-2"
               aria-label={tNav("mobileNav")}
               id="mobile-navigation"
             >

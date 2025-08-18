@@ -56,6 +56,13 @@
   --shadow-md: var(--shadow-medium);
   --shadow-lg: var(--shadow-large);
   --shadow-xl: var(--shadow-extra-large);
+
+   /* Spacing  */
+  --spacing-18: 4.5rem;
+  --spacing-88: 22rem;
+  
+  /* Breakpoint  */
+  --breakpoint-xs: 475px;
 }
 
 :root {

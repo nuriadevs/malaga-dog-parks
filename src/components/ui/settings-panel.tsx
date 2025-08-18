@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { Settings, X } from "lucide-react"; // o el icono que uses
-import { TextSizeDropdown } from "@/components/ui/font-size-controls";
+import { Settings, X } from "lucide-react"; 
 import { ModeToggle } from "@/components/ui/model-toggle";
 import { LanguageSwitch } from "@/components/ui/language-switch";
 
@@ -42,7 +41,7 @@ export function SettingsPanel() {
       {isSettingsOpen && (
         <>
           <div
-            className="fixed inset-0 z-40 bg-black/20 backdrop-blur-md"
+            className="fixed inset-0 z-40 bg-black/20"
             onClick={() => setIsSettingsOpen(false)}
             aria-hidden="true"
             aria-label={tacces.overlayLabel}
@@ -82,15 +81,6 @@ export function SettingsPanel() {
 
             {/* Configuration Controls */}
             <div className="space-y-4">
-              {/* Text Size */}
-              <fieldset className="space-y-2">
-                {" "}
-                <legend className="text-sm font-medium">
-                  {" "}
-                  {tacces.textSizeFieldset}
-                </legend>
-                <TextSizeDropdown />
-              </fieldset>
 
               <div className="border-t border-border" />
 

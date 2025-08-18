@@ -36,7 +36,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body className={fontConfig.className}>
+      <body className={`${fontConfig.className} min-h-screen flex flex-col`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider
             attribute="class"
@@ -45,9 +45,8 @@ export default async function RootLayout({
             disableTransitionOnChange
           >
             <Header />
-            <div className="flex flex-col w-full h-full max-w-screen-3xl mx-auto overflow-x-hidden">
               {children}
-            </div>
+            
             <Footer />
           </ThemeProvider>
           <CookieConsent />

@@ -8,9 +8,9 @@ export function StackSection() {
   const tStack = useTranslations("stack");
 
   return (
-    <section aria-labelledby="tech-stack-heading">
+    <section aria-labelledby="tech-stack-heading" className="py-2 sm:py-4 lg:py-6 xl:py-8">
       {/* Technology Stack */}
-      <div className="max-w-7xl mx-auto mb-16">
+      <div className="py-4 container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <h2
           id="tech-stack-heading"
           className="text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground mb-8 text-center tracking-wide"
