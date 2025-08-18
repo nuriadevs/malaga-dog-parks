@@ -1,11 +1,11 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation"; 
+import { Link } from "@/i18n/navigation";
 import { socialLinks } from "@/data/social-links";
 import { contactData } from "@/data/footer-data";
 import { Timestamp } from "@/components/ui/timestamp";
-import { FaHeart } from "react-icons/fa";
+import { FaHeart, FaLongArrowAltLeft } from "react-icons/fa";
 import { NavigationLink } from "@/types/navigation";
 import { FaPaw } from "react-icons/fa6";
 
@@ -56,6 +56,30 @@ export function Footer() {
               </nav>
             </div>
 
+            {/* Links Section */}
+            <div className="space-y-4 sm:space-y-6">
+              <h3 className="text-cyan-600 font-semibold text-lg md:text-22xl lg:text-2xl">
+                {tFooter("navigation.title")}
+              </h3>
+              <nav aria-label={tAccess("mainLinksNav")}>
+                <ul className="space-y-3">
+                  {navigationItems.map((item) => (
+                    <li
+                      key={item.key}
+                      className="min-h-[28px] flex items-center"
+                    >
+                      <Link
+                        href={item.href}
+                        className="text-muted-foreground hover:text-cyan-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-success/50 focus:ring-offset-2 focus:ring-offset-background rounded-sm py-1 inline-block leading-normal text-sm sm:text-base"
+                      >
+                        {tNav(item.labelKey)}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            </div>
+
             {/* Contact Section */}
             <div className="space-y-4 sm:space-y-6">
               <h3 className="text-cyan-600 font-semibold text-lg md:text-22xl lg:text-2xl">
@@ -87,30 +111,6 @@ export function Footer() {
                   </li>
                 ))}
               </ul>
-            </div>
-
-            {/* Links Section */}
-            <div className="space-y-4 sm:space-y-6">
-              <h3 className="text-cyan-600 font-semibold text-lg md:text-22xl lg:text-2xl">
-                {tFooter("navigation.title")}
-              </h3>
-              <nav aria-label={tAccess("mainLinksNav")}>
-                <ul className="space-y-3">
-                  {navigationItems.map((item) => (
-                    <li
-                      key={item.key}
-                      className="min-h-[28px] flex items-center"
-                    >
-                      <Link
-                        href={item.href}
-                        className="text-muted-foreground hover:text-cyan-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-success/50 focus:ring-offset-2 focus:ring-offset-background rounded-sm py-1 inline-block leading-normal text-sm sm:text-base"
-                      >
-                        {tNav(item.labelKey)}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </nav>
             </div>
           </div>
 

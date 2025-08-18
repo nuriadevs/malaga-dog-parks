@@ -4,7 +4,6 @@
 /* Configurate dark variant in next-themes */
 @custom-variant dark (&:where(.dark, .dark *));
 
-
 @theme inline {
   /* Fonts */
   --font-sans: var(--font-montserrat);
@@ -57,12 +56,10 @@
   --shadow-lg: var(--shadow-large);
   --shadow-xl: var(--shadow-extra-large);
 
-   /* Spacing  */
+  /* Spacing  */
   --spacing-18: 4.5rem;
   --spacing-88: 22rem;
-  
-  /* Breakpoint  */
-  --breakpoint-xs: 475px;
+
 }
 
 :root {
@@ -91,7 +88,6 @@
   --primary-800: oklch(0.38 0.15 250);
   --primary-900: oklch(0.3 0.12 250);
 
-
   --secondary-50: oklch(0.95 0.03 226.78);
   --secondary-100: oklch(0.88 0.06 226.78);
   --secondary-200: oklch(0.78 0.12 226.78);
@@ -102,7 +98,6 @@
   --secondary-700: oklch(0.4 0.15 226.78);
   --secondary-800: oklch(0.32 0.12 226.78);
   --secondary-900: oklch(0.25 0.1 226.78);
-
 
   --success-base: oklch(0.6656 0.1219 226.78);
   --warning-base: oklch(0.75 0.15 65);
@@ -252,7 +247,6 @@ html {
     color: var(--primary-foreground);
   }
 
-
   ::-webkit-scrollbar {
     width: 8px;
   }
@@ -272,8 +266,6 @@ html {
 }
 
 @layer utilities {
-
-
   .bg-gradient-primary {
     background: var(--gradient-primary);
   }
@@ -281,7 +273,6 @@ html {
   .bg-gradient-secondary {
     background: var(--gradient-secondary);
   }
-
 
   .bg-surface-elevated {
     background-color: var(--surface-elevated);
@@ -310,7 +301,6 @@ html {
     text-wrap: pretty;
   }
 
-
   .hover-lift {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
@@ -319,7 +309,6 @@ html {
     transform: translateY(-2px);
     box-shadow: var(--shadow-large);
   }
-
 
   .animate-fade-in {
     animation: fadeIn 0.3s ease-in-out;
@@ -340,5 +329,3 @@ html {
     @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background;
   }
 }
-
-
